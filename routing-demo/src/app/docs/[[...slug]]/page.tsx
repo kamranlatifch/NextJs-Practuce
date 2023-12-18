@@ -12,5 +12,5 @@ export default function Docs({params}:{
             Viewing docs for feature {params.slug[0]}
         </h1>
     }else
-    return <h1>Docs Home Page</h1>
+    return <h1>Docs Main Home Page</h1>
 }
