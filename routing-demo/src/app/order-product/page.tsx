@@ -6,6 +6,8 @@ const router=useRouter();
     const handleClick=()=>{
         alert("Order Placed Successfully");
         router.push("/")
+        // router.replace("/")  
+        //replace is used to replace the history
     }
     return <><h1>Ordr Product</h1>
 
